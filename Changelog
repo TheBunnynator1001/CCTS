@@ -1,0 +1,26 @@
+Collatz Conjecture Test Script
+By TheBunnynator1001
+Changelog
+
+v1.0.0
+- Created program
+
+v1.0.1
+- Cleaned up code
+- Added step counter
+
+v1.1.0
+- Added limit to step counter at 99,999,999
+    - Program will break if limit is reached, checked by "if" statement at the end of each cycle of the while loop
+
+v2.0.0
+- Changed values printed to int
+- Changed text printed if step limit is reached
+- Added c0 to print command for step limit
+- Added comments defining what is happening in each area for beginner programmers to break down
+- Made test params 2 ** a to 2 ** b where a and b are user defined
+- Changed step limit to 999 million, for that EXTRA bit of testing
+
+v2.0.1
+- Added statements to calculate what value had the most steps to reach 1, just for fun
+- Fixed issue where final print statement stating which number tested negative would always print "1"
